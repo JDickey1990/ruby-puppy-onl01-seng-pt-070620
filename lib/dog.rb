@@ -21,9 +21,9 @@ attr_accessor :name
     @@all.clear
   end
   
-  def self.print_all
+  def print_all
     @@all.each do |new_dog|
-      puts new_dog
+      puts new_dog.name
     end
   end
 end

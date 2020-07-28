@@ -8,11 +8,11 @@ attr_accessor :name, :save
   end
     
     
-    def save
+    def self.save
     @@all<< save
     end
 
-  def all
+  def self.all
     @@all
   end
   

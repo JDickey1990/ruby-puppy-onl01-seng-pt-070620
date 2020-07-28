@@ -7,7 +7,6 @@ attr_accessor :name, :save
     save= name 
   end
     
-  end
     
     def save
     @@all<< save
